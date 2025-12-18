@@ -1,0 +1,76 @@
+
+body {
+    background: #222;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+}
+
+.player {
+    padding: 20px;
+    border-bottom: 1px solid #444;
+}
+
+.red {
+    background: linear-gradient(to right, #900, #500);
+}
+
+.blue {
+    background: linear-gradient(to right, #006, #00f);
+}
+
+.name input {
+    font-size: 2em;
+    text-align: center;
+    width: 80%;
+}
+
+.score {
+    font-size: 5em;
+    margin: 10px;
+}
+
+.penalty {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.pen-box {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background: #333;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.pen-box.active {
+    background: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+.bottom-panel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    font-size: 2em;
+    background: #000;
+}
+
+.controls {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 1em;
+}

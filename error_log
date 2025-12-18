@@ -1,0 +1,1045 @@
+[01-May-2025 15:00:21 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/lrpw4623/public_html/kumite/save_score.php:8
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 8
+[01-May-2025 15:00:49 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/lrpw4623/public_html/kumite/save_score.php:8
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 8
+[01-May-2025 15:04:05 Asia/Jakarta] PHP Warning:  Undefined variable $db in /home/lrpw4623/public_html/kumite/save_score.php on line 8
+[01-May-2025 15:04:05 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/lrpw4623/public_html/kumite/save_score.php:16
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(16): mysqli->prepare()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 16
+[01-May-2025 15:12:41 Asia/Jakarta] PHP Warning:  Undefined variable $db in /home/lrpw4623/public_html/kumite/save_score.php on line 8
+[01-May-2025 15:12:41 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/lrpw4623/public_html/kumite/save_score.php:16
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(16): mysqli->prepare()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 16
+[03-May-2025 14:06:22 Asia/Jakarta] PHP Warning:  Undefined array key "penalty_red" in /home/lrpw4623/public_html/kumite/save_score.php on line 13
+[03-May-2025 14:06:22 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/lrpw4623/public_html/kumite/save_score.php:13
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(13): implode()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 13
+[03-May-2025 14:06:26 Asia/Jakarta] PHP Warning:  Undefined array key "penalty_red" in /home/lrpw4623/public_html/kumite/save_score.php on line 13
+[03-May-2025 14:06:26 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/lrpw4623/public_html/kumite/save_score.php:13
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(13): implode()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 13
+[03-May-2025 14:06:32 Asia/Jakarta] PHP Warning:  Undefined array key "penalty_red" in /home/lrpw4623/public_html/kumite/save_score.php on line 13
+[03-May-2025 14:06:32 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/lrpw4623/public_html/kumite/save_score.php:13
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(13): implode()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 13
+[03-May-2025 14:06:36 Asia/Jakarta] PHP Warning:  Undefined array key "penalty_red" in /home/lrpw4623/public_html/kumite/save_score.php on line 13
+[03-May-2025 14:06:36 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/lrpw4623/public_html/kumite/save_score.php:13
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(13): implode()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 13
+[03-May-2025 14:06:47 Asia/Jakarta] PHP Warning:  Undefined array key "penalty_red" in /home/lrpw4623/public_html/kumite/save_score.php on line 13
+[03-May-2025 14:06:47 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/lrpw4623/public_html/kumite/save_score.php:13
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(13): implode()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 13
+[03-May-2025 14:14:40 Asia/Jakarta] PHP Warning:  Undefined variable $db in /home/lrpw4623/public_html/kumite/save_score.php on line 15
+[03-May-2025 14:14:40 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/lrpw4623/public_html/kumite/save_score.php:21
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 21
+[03-May-2025 14:14:40 Asia/Jakarta] PHP Warning:  Undefined variable $db in /home/lrpw4623/public_html/kumite/save_score.php on line 15
+[03-May-2025 14:14:40 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/lrpw4623/public_html/kumite/save_score.php:21
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 21
+[03-May-2025 14:14:42 Asia/Jakarta] PHP Warning:  Undefined variable $db in /home/lrpw4623/public_html/kumite/save_score.php on line 15
+[03-May-2025 14:14:42 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/lrpw4623/public_html/kumite/save_score.php:21
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 21
+[03-May-2025 14:23:29 Asia/Jakarta] PHP Warning:  Undefined variable $db in /home/lrpw4623/public_html/kumite/save_score.php on line 15
+[03-May-2025 14:23:29 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/lrpw4623/public_html/kumite/save_score.php:21
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 21
+[03-May-2025 14:28:41 Asia/Jakarta] PHP Warning:  Undefined variable $db in /home/lrpw4623/public_html/kumite/save_score.php on line 15
+[03-May-2025 14:28:41 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/lrpw4623/public_html/kumite/save_score.php:21
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 21
+[03-May-2025 14:28:43 Asia/Jakarta] PHP Warning:  Undefined variable $db in /home/lrpw4623/public_html/kumite/save_score.php on line 15
+[03-May-2025 14:28:43 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/lrpw4623/public_html/kumite/save_score.php:21
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 21
+[03-May-2025 14:28:55 Asia/Jakarta] PHP Warning:  Undefined variable $db in /home/lrpw4623/public_html/kumite/save_score.php on line 15
+[03-May-2025 14:28:55 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/lrpw4623/public_html/kumite/save_score.php:21
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 21
+[03-May-2025 14:29:01 Asia/Jakarta] PHP Warning:  Undefined variable $db in /home/lrpw4623/public_html/kumite/save_score.php on line 15
+[03-May-2025 14:29:01 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/lrpw4623/public_html/kumite/save_score.php:21
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 21
+[03-May-2025 14:31:05 Asia/Jakarta] PHP Warning:  Undefined variable $db in /home/lrpw4623/public_html/kumite/save_score.php on line 15
+[03-May-2025 14:31:05 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/lrpw4623/public_html/kumite/save_score.php:21
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 21
+[03-May-2025 14:31:12 Asia/Jakarta] PHP Warning:  Undefined variable $db in /home/lrpw4623/public_html/kumite/save_score.php on line 15
+[03-May-2025 14:31:12 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/lrpw4623/public_html/kumite/save_score.php:21
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 21
+[03-May-2025 14:31:21 Asia/Jakarta] PHP Warning:  Undefined variable $db in /home/lrpw4623/public_html/kumite/save_score.php on line 15
+[03-May-2025 14:31:21 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/lrpw4623/public_html/kumite/save_score.php:21
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 21
+[03-May-2025 14:44:22 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'username'@'localhost' (using password: YES) in /home/lrpw4623/public_html/kumite/save_score.php:19
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(19): mysqli->__construct()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 19
+[03-May-2025 14:44:31 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'username'@'localhost' (using password: YES) in /home/lrpw4623/public_html/kumite/save_score.php:19
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(19): mysqli->__construct()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 19
+[03-May-2025 14:45:26 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'username'@'localhost' (using password: YES) in /home/lrpw4623/public_html/kumite/save_score.php:19
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(19): mysqli->__construct()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 19
+[03-May-2025 14:45:54 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'username'@'localhost' (using password: YES) in /home/lrpw4623/public_html/kumite/save_score.php:19
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(19): mysqli->__construct()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 19
+[03-May-2025 14:48:25 Asia/Jakarta] PHP Warning:  Undefined variable $db in /home/lrpw4623/public_html/kumite/save_score.php on line 15
+[03-May-2025 14:48:25 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/lrpw4623/public_html/kumite/save_score.php:21
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 21
+[03-May-2025 14:48:36 Asia/Jakarta] PHP Warning:  Undefined variable $db in /home/lrpw4623/public_html/kumite/save_score.php on line 15
+[03-May-2025 14:48:36 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/lrpw4623/public_html/kumite/save_score.php:21
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 21
+[03-May-2025 14:49:02 Asia/Jakarta] PHP Warning:  Undefined variable $db in /home/lrpw4623/public_html/kumite/save_score.php on line 15
+[03-May-2025 14:49:02 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/lrpw4623/public_html/kumite/save_score.php:21
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 21
+[03-May-2025 14:57:49 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/save_score.php on line 49
+[03-May-2025 14:57:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/lrpw4623/public_html/kumite/save_score.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 49
+[03-May-2025 15:04:48 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/save_score.php on line 10
+[03-May-2025 15:04:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/lrpw4623/public_html/kumite/save_score.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 10
+[03-May-2025 15:04:49 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/save_score.php on line 10
+[03-May-2025 15:04:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/lrpw4623/public_html/kumite/save_score.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 10
+[03-May-2025 15:08:16 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 24
+[03-May-2025 15:08:16 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 25
+[03-May-2025 15:08:55 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 24
+[03-May-2025 15:08:55 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 25
+[03-May-2025 15:10:31 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 24
+[03-May-2025 15:10:31 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 25
+[03-May-2025 15:27:06 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 24
+[03-May-2025 15:27:06 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 25
+[03-May-2025 15:39:55 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 24
+[03-May-2025 15:39:55 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 25
+[03-May-2025 16:04:04 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 24
+[03-May-2025 16:04:04 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 25
+[03-May-2025 16:08:38 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'username'@'localhost' (using password: YES) in /home/lrpw4623/public_html/kumite/save_score.php:19
+Stack trace:
+#0 /home/lrpw4623/public_html/kumite/save_score.php(19): mysqli->__construct()
+#1 {main}
+  thrown in /home/lrpw4623/public_html/kumite/save_score.php on line 19
+[03-May-2025 16:11:32 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 24
+[03-May-2025 16:11:32 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 25
+[03-May-2025 16:12:54 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 24
+[03-May-2025 16:12:54 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 25
+[03-May-2025 22:50:47 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 24
+[03-May-2025 22:50:47 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 25
+[03-May-2025 23:17:12 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 24
+[03-May-2025 23:17:12 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 25
+[03-May-2025 23:26:27 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 24
+[03-May-2025 23:26:27 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 25
+[03-May-2025 23:28:03 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 24
+[03-May-2025 23:28:03 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 25
+[03-May-2025 23:28:32 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 24
+[03-May-2025 23:28:32 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 25
+[03-May-2025 23:39:28 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 24
+[03-May-2025 23:39:28 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 25
+[04-May-2025 00:20:11 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 24
+[04-May-2025 00:20:11 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 25
+[04-May-2025 00:20:27 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 24
+[04-May-2025 00:20:27 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 25
+[04-May-2025 00:30:26 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:27 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:28 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:29 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:30 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:31 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:32 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:33 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:34 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:35 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:36 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:37 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:38 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:39 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:40 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:41 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:42 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:43 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:44 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:45 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:47 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:48 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:49 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:50 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:51 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:52 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:53 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:54 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:55 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:56 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:57 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:58 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:59 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:30:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:00 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:01 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:02 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:03 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:04 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:06 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:06 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:07 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 24
+[04-May-2025 00:31:07 Asia/Jakarta] PHP Notice:  Only variables should be passed by reference in /home/lrpw4623/public_html/kumite/save_score.php on line 25
+[04-May-2025 00:31:07 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:09 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:10 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:11 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:12 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:15 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:17 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:18 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:19 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:20 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:21 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:22 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:24 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:25 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:26 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:27 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:28 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:29 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:30 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:31 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:32 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:33 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:34 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:35 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:36 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:37 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:38 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:39 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:40 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:41 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:42 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:43 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:44 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:45 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:46 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:47 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:48 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:49 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:50 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:51 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:52 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:53 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:54 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:55 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:56 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:59 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:31:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:00 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:01 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:02 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:03 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:05 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:06 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:07 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:08 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:09 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:10 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:11 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:12 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:13 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:14 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:15 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:16 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:17 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:18 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:19 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:20 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:21 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:22 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:23 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:24 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:25 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:26 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:27 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:28 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:29 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:30 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:31 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:32 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:33 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:34 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:35 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:36 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:37 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:38 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:39 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:40 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:41 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:42 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:43 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:44 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:45 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:46 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:47 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:48 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:49 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:50 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:51 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:52 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:53 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:54 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:55 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:56 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:57 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:58 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:59 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:32:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:00 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:01 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:02 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:03 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:04 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:05 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:06 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:07 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:08 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:09 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:10 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:11 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:12 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:13 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:14 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:15 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:16 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:17 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:18 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:19 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:20 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:22 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
+[04-May-2025 00:33:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lrpw4623/public_html/kumite/get_live_score.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lrpw4623/public_html/kumite/get_live_score.php on line 17
