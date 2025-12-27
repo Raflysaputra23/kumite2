@@ -64,10 +64,22 @@
         let isCalculated1 = false;
         let isCalculated2 = false;
         let timeout1 = null;
+        let isCoolingDown = false;
         const durasiJuri = 1500;
         loadVoteJuri();
         loadHistoryJuri();
         history.scrollTop = history.scrollHeight;
+
+        const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+        async function handleRemote() {
+            if (isCoolingDown) return;
+            isCoolingDown = true;
+
+            await delay(3000);
+
+            isCoolingDown = false;
+        }
 
 
         const interval = setInterval(() => {
@@ -91,7 +103,7 @@
             client.subscribe("scorekata/koneksi2");
             client.publish("scorekata/kontrol", JSON.stringify({ tatami }));
         });
-        client.on("message", (topic, message) => {
+        client.on("message", async (topic, message) => {
             try {
                 if (topic == "scorekata/koneksi2") {
                     const item = JSON.parse(message.toString());
@@ -99,7 +111,7 @@
                     if (!remote.includes(item.deviceId)) {
                         remote.push(item.deviceId);
                         localStorage.setItem("remote", JSON.stringify(remote));
-                        // alert(`Remote ${item.deviceId} terhubung ke tatami ${item.tatami}!!`);
+                        // showPopup(`Remote ${item.deviceId} terhubung ke tatami ${item.tatami}!!`, 'bg-green-500', 3000);
                     }
                 } else if (topic == "scorekata/koneksi") {
                     const item = JSON.parse(message.toString());
@@ -108,15 +120,15 @@
                         if (!remote.includes(item.deviceId)) {
                             remote.push(item.deviceId);
                             localStorage.setItem("remote", JSON.stringify(remote));
-                            client.publish("scorekata/kontrol", JSON.stringify({ tatami }));
                         }
-                        // alert(`Remote ${item.deviceId} terhubung ke tatami ${item.tatami}!!`);
+                        client.publish("scorekata/kontrol", JSON.stringify({ tatami }));
+                        // showPopup(`Remote ${item.deviceId} terhubung ke tatami ${item.tatami}!!`, 'bg-green-500', 3000);
                     } else {
                         const remote = JSON.parse(localStorage.getItem("remote")) || [];
                         if (remote.includes(item.deviceId)) {
                             const newRemote = remote.filter((r) => r != item.deviceId);
                             localStorage.setItem("remote", JSON.stringify(newRemote));
-                            // alert(`Remote ${item.deviceId} terputus!!`);
+                            // showPopup(`Remote ${item.deviceId} terputus!!`, 'bg-red-500', 3000);
                         }
                     }
                 } else if (topic == "scorekata/data") {
@@ -125,7 +137,10 @@
                     const timerPlay = localStorage.getItem("timerPlay");
                     const juri = JSON.parse(localStorage.getItem("juri" + tatami)) || [];
                     const historyJuri = JSON.parse(localStorage.getItem("historyJuri" + tatami)) || [];
-                    if (item.tatami != tatami) return true;
+                    // if (item.tatami != tatami) return true;
+
+                    // if(isCoolingDown) return false;
+                    // handleRemote();
 
                     if (item.team == "reset") {
                         if (item.deviceId == "juri-1" && timerPlay == "false") {
@@ -147,7 +162,7 @@
                     }
 
                     //   NGECEK TIMER KLO UDAH BERHENTI JANGAN VOTE
-                    // if (timerPlay == "false") return true;
+                    if (timerPlay == "false") return true;
 
                     //   NGECEK JURI UDAH VOTE ATAU BELUM
                     if (juri.some(j => j.deviceId == item.deviceId)) return true
@@ -262,7 +277,7 @@
         }
 
 
-        function showPopup(text, bg) {
+        function showPopup(text, bg, duration = 1500) {
             const container = getPopupContainer();
 
             const popup = document.createElement("div");
@@ -288,7 +303,7 @@
                         setTimeout(() => container.remove(), 300);
                     }
                 }, 300);
-            }, 1500);
+            }, duration);
         }
 
 
