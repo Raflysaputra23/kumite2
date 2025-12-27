@@ -55,71 +55,20 @@
         const tatami = localStorage.getItem("tatamiNumber") || '1';
         const tatamiNumber = document.getElementById("tatamiNumber");
         tatamiNumber.innerHTML = "Tatami " + tatami;
-        let isCalculated = false;
+
+        let isCalculated1 = false;
         let isCalculated2 = false;
-        const durasiJuri = 1000;
+        let timeout1 = null;
+        const durasiJuri = 4000;
 
-        const juri = JSON.parse(localStorage.getItem("juri" + tatami)) || [];
-        const historyJuri = JSON.parse(localStorage.getItem("historyJuri" + tatami)) || [];
-        let vote = juri.length;
-
-        if (juri.length > 0) {
-            juri.forEach((j, index) => {
-                box.forEach((box) => {
-                    const dataJuri = box.dataset.juri;
-                    if (dataJuri == j.deviceId) {
-                        box.classList.add(j.votes == "blue" ? "bg-blue-500" : "bg-red-500");
-                    }
-                });
-            });
-        } else {
-            box.forEach((box) => {
-                box.classList.remove("bg-blue-500");
-                box.classList.remove("bg-red-500");
-            });
-        }
+        loadVoteJuri();
+        loadHistoryJuri();
+        history.scrollTop = history.scrollHeight;
 
         const interval = setInterval(() => {
-            fetchDataJuri();
+            loadVoteJuri();
+            loadHistoryJuri();
         }, 1000);
-
-        if (historyJuri.length > 0) {
-            history.innerHTML = "";
-            historyJuri.forEach((h, index) => {
-                history.innerHTML += `
-                <div class="bg-slate-300 flex items-center justify-between rounded-md p-2 px-3">
-                    <div class="flex flex-col items-start">
-                        <h1 class="font-bold text-2xl">Juri ${h.deviceId.split("-")[1]}</h1>
-                        <p class="text-sm text-slate-800">Memberikan voting</p>
-                    </div>
-                    <div class="flex flex-col items-end">
-                        <div class="w-8 h-8 rounded-md ${h.votes == "blue" ? "bg-blue-500" : "bg-red-500"} flex items-center justify-center text-white">${h.score}</div>
-                        <p class="text-sm text-slate-800 font-bold">${formatTime(Number(h.time))}</p>
-                    </div>
-                </div>     
-                    `;
-            });
-        }
-
-        const fetchDataJuri = () => {
-            const juri = JSON.parse(localStorage.getItem("juri" + tatami)) || [];
-            if (juri.length > 0) {
-                juri.forEach((j, index) => {
-                    box.forEach((box) => {
-                        const dataJuri = box.dataset.juri;
-                        if (dataJuri == j.deviceId) {
-                            box.classList.add(j.votes == "blue" ? "bg-blue-500" : "bg-red-500");
-                        }
-                    });
-                });
-            } else {
-                box.forEach((box) => {
-                    box.classList.remove("bg-blue-500");
-                    box.classList.remove("bg-red-500");
-                });
-            }
-        }
-
 
         const host =
             "wss://93eedc74ea8c4eb0acfa05709199be1f.s1.eu.hivemq.cloud:8884/mqtt";
@@ -132,21 +81,24 @@
         client.on("connect", () => {
             console.log("✅ Terhubung ke HiveMQ Cloud!");
             client.subscribe("scorekata/data");
-            client.publish("scorekata/kontrol", JSON.stringify({ tatami: localStorage.getItem("tatamiNumber") }));
+            client.publish("scorekata/kontrol", JSON.stringify({ tatami }));
         });
         client.on("message", (topic, message) => {
             try {
-
                 const item = JSON.parse(message.toString());
-                const timerPlay = localStorage.getItem("timerPlay");
                 const tatami = localStorage.getItem("tatamiNumber");
+                const timerPlay = localStorage.getItem("timerPlay");
                 const juri = JSON.parse(localStorage.getItem("juri" + tatami)) || [];
-
-                if (tatami != <?= $_GET['tatami'] ?>) return true;
+                const historyJuri = JSON.parse(localStorage.getItem("historyJuri" + tatami)) || [];
                 if (item.tatami != tatami) return true;
 
                 if (item.team == "reset") {
                     if (item.deviceId == "juri-1" && timerPlay == "false") {
+                        localStorage.setItem("blueScore" + tatami, "0");
+                        localStorage.setItem("redScore" + tatami, "0");
+                        localStorage.setItem("timer" + tatami, "180000");
+                        localStorage.setItem("juri" + tatami, JSON.stringify([]));
+                        // localStorage.setItem("historyJuri" + tatami, JSON.stringify([]));
                         box.forEach((box) => {
                             box.classList.remove("bg-red-500");
                             box.classList.remove("bg-blue-500");
@@ -159,39 +111,11 @@
                     return true;
                 }
 
+                //   NGECEK TIMER KLO UDAH BERHENTI JANGAN VOTE
                 if (timerPlay == "false") return true;
-
 
                 //   NGECEK JURI UDAH VOTE ATAU BELUM
                 if (juri.some(j => j.deviceId == item.deviceId)) return true
-
-                box.forEach((box) => {
-                    const dataJuri = box.dataset.juri;
-                    if (dataJuri == item.deviceId) {
-                        box.classList.add(
-                            item.team == "blue" ? "bg-blue-500" : "bg-red-500"
-                        );
-                    }
-                });
-
-                if (historyJuri.length == 0) history.innerHTML = ``;
-
-                history.innerHTML += `
-                <div class="bg-slate-300 flex items-center justify-between rounded-md p-2 px-3">
-                    <div class="flex flex-col items-start">
-                        <h1 class="font-bold text-2xl">Juri ${item.deviceId.split("-")[1]}</h1>
-                        <p class="text-sm text-slate-800">Memberikan voting</p>
-                    </div>
-                    <div class="flex flex-col items-end">
-                        <div class="w-8 h-8 rounded-md ${item.team == "blue" ? "bg-blue-500" : "bg-red-500"} flex items-center justify-center text-white">${item.score}</div>
-                        <p class="text-sm text-slate-800 font-bold">${formatTime(Number(localStorage.getItem("timer" + tatami)))}</p>
-                    </div>
-                </div>               
-                    `;
-
-                history.scrollTop = history.scrollHeight;
-
-
 
                 // CEK JIKA JURI UDAH VOTE KEEMPATNYA MAKA JANGAN DITAMBAH LAGI
                 if (juri.length > 4) return false;
@@ -205,8 +129,15 @@
 
                 historyJuri.push(dataJuri);
                 juri.push(dataJuri);
+                localStorage.setItem("juri" + tatami, JSON.stringify(juri));
                 localStorage.setItem("historyJuri" + tatami, JSON.stringify(historyJuri));
-                if (juri.length >= 2) {
+
+                // LOAD DATA
+                loadHistoryJuri();
+                loadVoteJuri();
+                history.scrollTop = history.scrollHeight;
+
+                if (juri.length >= 1) {
                     const scoreBlue = [];
                     const scoreRed = [];
 
@@ -218,21 +149,24 @@
                         }
                     });
 
-                    let timeout1 = null;
-                    if (scoreBlue.length >= 1 && scoreRed.length >= 1 && !isCalculated2) {
+                    if ((scoreBlue.length > 0 || scoreRed.length > 0) && !isCalculated1) {
+                        isCalculated1 = true;
                         timeout1 = setTimeout(() => {
-                            isCalculated2 = false;
+                            isCalculated1 = false;
                             localStorage.setItem("juri" + tatami, JSON.stringify([]));
+                            loadVoteJuri();
                             clearTimeout(timeout1);
-                        }, durasiJuri)
+                        }, durasiJuri);
                     }
 
                     // CEK JIKA TIM BLUE ATAU TIM RED LEBIH DARI SATU VOTING MASUK KE LOGIKA
-                    if ((scoreBlue.length > 1 || scoreRed.length > 1) && !isCalculated) {
-                        isCalculated = true;
+                    if ((scoreBlue.length > 1 || scoreRed.length > 1) && !isCalculated2) {
+                        isCalculated2 = true;
+                        isCalculated1 = false;
                         clearTimeout(timeout1);
-                        const timeout = setTimeout(() => {
-                            isCalculated = false;
+                        const timeout2 = setTimeout(() => {
+                            isCalculated2 = false;
+                            const juri = JSON.parse(localStorage.getItem("juri" + tatami)) || [];
                             const latestBlue = [];
                             const latestRed = [];
 
@@ -246,29 +180,31 @@
 
                             if (latestBlue.length > 1) {
                                 const maxBlue = Math.max(...latestBlue);
+                                const blueScore = parseInt(localStorage.getItem("blueScore" + tatami)) || 0;
+                                const total = blueScore + maxBlue;
+                                localStorage.setItem("blueScore" + tatami, total);
                                 alert(`Biru plus ${maxBlue}!`);
                             }
 
                             if (latestRed.length > 1) {
                                 const maxRed = Math.max(...latestRed);
+                                const redScore = parseInt(localStorage.getItem("redScore" + tatami)) || 0;
+                                const total = redScore + maxRed;
+                                localStorage.setItem("redScore" + tatami, total);
                                 alert(`Merah plus ${maxRed}!`);
                             }
 
                             // RESET
-                            juri.length = 0;
-                            vote = 0;
-                            clearTimeout(timeout);
-                            box.forEach((box) => {
-                                box.classList.remove("bg-red-500");
-                                box.classList.remove("bg-blue-500");
-                            });
-                        }, 700);
+                            localStorage.setItem("juri" + tatami, JSON.stringify([]));
+                            localStorage.setItem("timerPlay", false);
+                            clearTimeout(timeout2);
+                            loadVoteJuri();
+                        }, durasiJuri);
                     }
                 }
 
             } catch (e) {
-                console.log(e);
-                console.log(message.toString());
+                console.log("Error: ", e);
             }
         });
         client.on("error", (err) => {
@@ -287,6 +223,52 @@
                 ":" +
                 String(seconds).padStart(2, "0")
             );
+        }
+
+        function loadVoteJuri() {
+            const juri = JSON.parse(localStorage.getItem("juri" + tatami)) || [];
+            if (juri.length > 0) {
+                juri.forEach((j, index) => {
+                    box.forEach((box) => {
+                        const dataJuri = box.dataset.juri;
+                        if (dataJuri == j.deviceId) {
+                            box.classList.add(j.votes == "blue" ? "bg-blue-500" : "bg-red-500");
+                        }
+                    });
+                });
+            } else {
+                box.forEach((box) => {
+                    box.classList.remove("bg-blue-500");
+                    box.classList.remove("bg-red-500");
+                });
+            }
+        }
+
+        function loadHistoryJuri() {
+            const historyJuri = JSON.parse(localStorage.getItem("historyJuri" + tatami)) || [];
+            if (historyJuri.length > 0) {
+                history.innerHTML = "";
+                historyJuri.forEach((h, index) => {
+                    history.innerHTML += `
+                <div class="bg-slate-300 flex items-center justify-between rounded-md p-2 px-3">
+                    <div class="flex flex-col items-start">
+                        <h1 class="font-bold text-2xl">Juri ${h.deviceId.split("-")[1]}</h1>
+                        <p class="text-sm text-slate-800">Memberikan voting</p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                        <div class="w-8 h-8 rounded-md ${h.votes == "blue" ? "bg-blue-500" : "bg-red-500"} flex items-center justify-center text-white">${h.score}</div>
+                        <p class="text-sm text-slate-800 font-bold">${formatTime(Number(h.time))}</p>
+                    </div>
+                </div>     
+                    `;
+                });
+            } else {
+                history.innerHTML = `
+                <div class="w-full h-full flex items-center justify-center">
+                    <h1 class="text-2xl font-bold">Belum ada history</h1>
+                </div>
+                `;
+            }
         }
     </script>
 </body>

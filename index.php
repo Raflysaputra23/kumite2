@@ -376,6 +376,11 @@
       localStorage.setItem("historyJuri" + tatami, JSON.stringify([]));
     }
 
+    loadScores();
+    setInterval(() => {
+      loadScores();
+    }, 1000);
+
     // Load data dari localStorage saat halaman dimuat
     window.addEventListener('load', () => {
       // Load player info
@@ -554,6 +559,13 @@
       document.querySelectorAll('#penaltyBlue div').forEach(div => {
         if (blue.includes(div.innerText)) div.classList.add('active');
       });
+    }
+
+    function loadScores() {
+      redScore = parseInt(localStorage.getItem('redScore' + tatami)) || 0;
+      blueScore = parseInt(localStorage.getItem('blueScore' + tatami)) || 0;
+      document.getElementById('scoreRedValue').innerText = redScore;
+      document.getElementById('scoreBlueValue').innerText = blueScore;
     }
 
     // Timer
@@ -781,7 +793,7 @@
         localStorage.setItem('blueScore' + tatami, blueScore);
       }
 
-      localStorage.setItem('scoreLog', JSON.stringify(scoreLog));
+      localStorage.setItem('scoreLog' + tatami, JSON.stringify(scoreLog));
       updateScoreDetails();
     }
 
@@ -932,8 +944,8 @@
         document.getElementById("scoreBlueValue").innerText = blueScore;
 
         // Hapus skor dari localStorage
-        localStorage.setItem("redScore", "0");
-        localStorage.setItem("blueScore", "0");
+        localStorage.setItem("redScore" + tatami, "0");
+        localStorage.setItem("blueScore" + tatami, "0");
         localStorage.setItem("timerPlay", false);
         localStorage.setItem("juri" + tatami, JSON.stringify([]));
         localStorage.setItem("historyJuri" + tatami, JSON.stringify([]));
