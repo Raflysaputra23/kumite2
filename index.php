@@ -374,6 +374,7 @@
 
     const resetHistoryJuri = () => {
       localStorage.setItem("historyJuri" + tatami, JSON.stringify([]));
+      alert("History juri pada tatami " + tatami + " berhasil direset.");
     }
 
     loadScores();

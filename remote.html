@@ -7,221 +7,238 @@
     <link rel="stylesheet" href="./style/output.css" />
   </head>
   <body class="overflow-hidden">
-    <div class="grid grid-cols-2 grid-rows-2 h-screen p-8 gap-5">
-      <div id="remote-1" class="flex relative z-10 flex-col items-center gap-10 bg-slate-900 rounded-2xl shadow-[2px_2px_4px_rgba(0,0,0,0.5)]">
+    <div
+      class="grid grid-cols-2 grid-rows-3 h-screen p-8 gap-5 overflow-y-auto"
+    >
+      <div
+        id="remote-1"
+        class="flex relative z-10 flex-col items-center gap-10 bg-slate-900 rounded-2xl shadow-[2px_2px_4px_rgba(0,0,0,0.5)]"
+      >
         <h1 class="text-2xl font-bold mt-5 text-white">Juri 1</h1>
         <div class="flex w-full items-center gap-5">
-            <div class="flex-1 flex flex-col items-center justify-center gap-3">
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-1','red',1)"
-              >
-                AKA +1
-              </button>
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-1','red',2)"
-              >
-                AKA +2
-              </button>
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-1','red',3)"
-              >
-                AKA +3
-              </button>
-            </div>
-            <div>
-              <button
-                class="flex-auto px-5 p-3 hover:scale-105 hover:bg-yellow-800 active:scale-100 transition-all cursor-pointer bg-yellow-500 rounded-xl shadow font-bold text-white"
-                onclick="sendReset('juri-1')"
-              >
-                Reset
-              </button>
-            </div>
-            <div class="flex-1 flex flex-col items-center justify-center gap-3">
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-1','blue',1)"
-              >
-                AO +1
-              </button>
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-1','blue',2)"
-              >
-                AO +2
-              </button>
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-1','blue',3)"
-              >
-                AO +3
-              </button>
-            </div>
+          <div class="flex-1 flex flex-col items-center justify-center gap-3">
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-1','red',1)"
+            >
+              AKA +1
+            </button>
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-1','red',2)"
+            >
+              AKA +2
+            </button>
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-1','red',3)"
+            >
+              AKA +3
+            </button>
+          </div>
+          <div>
+            <button
+              class="flex-auto px-5 p-3 hover:scale-105 hover:bg-yellow-800 active:scale-100 transition-all cursor-pointer bg-yellow-500 rounded-xl shadow font-bold text-white"
+              onclick="sendReset('juri-1')"
+            >
+              Reset
+            </button>
+          </div>
+          <div class="flex-1 flex flex-col items-center justify-center gap-3">
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-1','blue',1)"
+            >
+              AO +1
+            </button>
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-1','blue',2)"
+            >
+              AO +2
+            </button>
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-1','blue',3)"
+            >
+              AO +3
+            </button>
+          </div>
         </div>
       </div>
-      <div id="remote-2" class="flex relative z-10 flex-col items-center gap-10 bg-slate-900 rounded-2xl shadow-[2px_2px_4px_rgba(0,0,0,0.5)]">
+      <div
+        id="remote-2"
+        class="flex relative z-10 flex-col items-center gap-10 bg-slate-900 rounded-2xl shadow-[2px_2px_4px_rgba(0,0,0,0.5)]"
+      >
         <h1 class="text-2xl font-bold mt-5 text-white">Juri 2</h1>
         <div class="flex w-full items-center gap-5">
-            <div class="flex-1 flex flex-col items-center justify-center gap-3">
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-2','red',1)"
-              >
-                AKA +1
-              </button>
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-2','red',2)"
-              >
-                AKA +2
-              </button>
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-2','red',3)"
-              >
-                AKA +3
-              </button>
-            </div>
-            <div>
-              <button
-                class="flex-auto px-5 p-3 hover:scale-105 hover:bg-yellow-800 active:scale-100 transition-all cursor-pointer bg-yellow-500 rounded-xl shadow font-bold text-white"
-                onclick="sendReset('juri-2')"
-              >
-                Reset
-              </button>
-            </div>
-            <div class="flex-1 flex flex-col items-center justify-center gap-3">
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-2','blue',1)"
-              >
-                AO +1
-              </button>
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-2','blue',2)"
-              >
-                AO +2
-              </button>
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-2','blue',3)"
-              >
-                AO +3
-              </button>
-            </div>
+          <div class="flex-1 flex flex-col items-center justify-center gap-3">
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-2','red',1)"
+            >
+              AKA +1
+            </button>
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-2','red',2)"
+            >
+              AKA +2
+            </button>
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-2','red',3)"
+            >
+              AKA +3
+            </button>
+          </div>
+          <div>
+            <button
+              class="flex-auto px-5 p-3 hover:scale-105 hover:bg-yellow-800 active:scale-100 transition-all cursor-pointer bg-yellow-500 rounded-xl shadow font-bold text-white"
+              onclick="sendReset('juri-2')"
+            >
+              Reset
+            </button>
+          </div>
+          <div class="flex-1 flex flex-col items-center justify-center gap-3">
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-2','blue',1)"
+            >
+              AO +1
+            </button>
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-2','blue',2)"
+            >
+              AO +2
+            </button>
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-2','blue',3)"
+            >
+              AO +3
+            </button>
+          </div>
         </div>
       </div>
-      <div id="remote-3" class="flex relative z-10 flex-col items-center gap-10 bg-slate-900 rounded-2xl shadow-[2px_2px_4px_rgba(0,0,0,0.5)]">
+      <div
+        id="remote-3"
+        class="flex relative z-10 flex-col items-center gap-10 bg-slate-900 rounded-2xl shadow-[2px_2px_4px_rgba(0,0,0,0.5)]"
+      >
         <h1 class="text-2xl font-bold mt-5 text-white">Juri 3</h1>
         <div class="flex w-full items-center gap-5">
-            <div class="flex-1 flex flex-col items-center justify-center gap-3">
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-3','red',1)"
-              >
-                AKA +1
-              </button>
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-3','red',2)"
-              >
-                AKA +2
-              </button>
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-3','red',3)"
-              >
-                AKA +3
-              </button>
-            </div>
-            <div>
-              <button
-                class="flex-auto px-5 p-3 hover:scale-105 hover:bg-yellow-800 active:scale-100 transition-all cursor-pointer bg-yellow-500 rounded-xl shadow font-bold text-white"
-                onclick="sendReset('juri-3')"
-              >
-                Reset
-              </button>
-            </div>
-            <div class="flex-1 flex flex-col items-center justify-center gap-3">
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-3','blue',1)"
-              >
-                AO +1
-              </button>
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-3','blue',2)"
-              >
-                AO +2
-              </button>
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-3','blue',3)"
-              >
-                AO +3
-              </button>
-            </div>
+          <div class="flex-1 flex flex-col items-center justify-center gap-3">
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-3','red',1)"
+            >
+              AKA +1
+            </button>
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-3','red',2)"
+            >
+              AKA +2
+            </button>
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-3','red',3)"
+            >
+              AKA +3
+            </button>
+          </div>
+          <div>
+            <button
+              class="flex-auto px-5 p-3 hover:scale-105 hover:bg-yellow-800 active:scale-100 transition-all cursor-pointer bg-yellow-500 rounded-xl shadow font-bold text-white"
+              onclick="sendReset('juri-3')"
+            >
+              Reset
+            </button>
+          </div>
+          <div class="flex-1 flex flex-col items-center justify-center gap-3">
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-3','blue',1)"
+            >
+              AO +1
+            </button>
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-3','blue',2)"
+            >
+              AO +2
+            </button>
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-3','blue',3)"
+            >
+              AO +3
+            </button>
+          </div>
         </div>
       </div>
-      <div id="remote-4" class="flex relative z-10 flex-col items-center gap-10 bg-slate-900 rounded-2xl shadow-[2px_2px_4px_rgba(0,0,0,0.5)]">
+      <div
+        id="remote-4"
+        class="flex relative z-10 flex-col items-center gap-10 bg-slate-900 rounded-2xl shadow-[2px_2px_4px_rgba(0,0,0,0.5)]"
+      >
         <h1 class="text-2xl font-bold mt-5 text-white">Juri 4</h1>
         <div class="flex w-full items-center gap-5">
-            <div class="flex-1 flex flex-col items-center justify-center gap-3">
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-4','red',1)"
-              >
-                AKA +1
-              </button>
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-4','red',2)"
-              >
-                AKA +2
-              </button>
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-4','red',3)"
-              >
-                AKA +3
-              </button>
-            </div>
-            <div>
-              <button
-                class="flex-auto px-5 p-3 hover:scale-105 hover:bg-yellow-800 active:scale-100 transition-all cursor-pointer bg-yellow-500 rounded-xl shadow font-bold text-white"
-                onclick="sendReset('juri-4')"
-              >
-                Reset
-              </button>
-            </div>
-            <div class="flex-1 flex flex-col items-center justify-center gap-3">
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-4','blue',1)"
-              >
-                AO +1
-              </button>
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-4','blue',2)"
-              >
-                AO +2
-              </button>
-              <button
-                class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
-                onclick="sendVote('juri-4','blue',3)"
-              >
-                AO +3
-              </button>
-            </div>
+          <div class="flex-1 flex flex-col items-center justify-center gap-3">
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-4','red',1)"
+            >
+              AKA +1
+            </button>
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-4','red',2)"
+            >
+              AKA +2
+            </button>
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-red-800 active:scale-100 transition-all cursor-pointer bg-red-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-4','red',3)"
+            >
+              AKA +3
+            </button>
+          </div>
+          <div>
+            <button
+              class="flex-auto px-5 p-3 hover:scale-105 hover:bg-yellow-800 active:scale-100 transition-all cursor-pointer bg-yellow-500 rounded-xl shadow font-bold text-white"
+              onclick="sendReset('juri-4')"
+            >
+              Reset
+            </button>
+          </div>
+          <div class="flex-1 flex flex-col items-center justify-center gap-3">
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-4','blue',1)"
+            >
+              AO +1
+            </button>
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-4','blue',2)"
+            >
+              AO +2
+            </button>
+            <button
+              class="px-5 p-3 hover:scale-105 hover:bg-blue-800 active:scale-100 transition-all cursor-pointer bg-blue-500 rounded-xl shadow font-bold text-white"
+              onclick="sendVote('juri-4','blue',3)"
+            >
+              AO +3
+            </button>
+          </div>
         </div>
       </div>
 
-      <div class="w-175 h-[400px] z-0 border-10 border-slate-900 fixed left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
+      <div
+        class="w-175 h-[400px] z-0 border-10 border-slate-900 fixed left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2"
+      ></div>
+      <div class="">
 
       </div>
     </div>
@@ -243,17 +260,43 @@
       const client = mqtt.connect(host, options);
 
       client.on("connect", () => {
-        client.subscribe("scorekata/kontrol");
         console.log("✅ Connected MQTT");
+        client.subscribe("scorekata/kontrol");
+        client.publish(
+          "scorekata/koneksi",
+          JSON.stringify({ deviceId: "juri-4", tatami, status: "online" })
+        );
       });
 
       client.on("message", (topic, message) => {
         try {
           const res = JSON.parse(message.toString());
           tatami = res.tatami;
+          client.publish(
+            "scorekata/koneksi2",
+            JSON.stringify({ deviceId: "juri-4", tatami, status: "online" })
+          );
         } catch (e) {
           console.log("Error:", e);
         }
+      });
+
+      client.on("offline", () => {
+        client.publish(
+            "scorekata/koneksi2",
+            JSON.stringify({ deviceId: "juri-4", tatami, status: "offline" })
+          );
+      });
+
+      client.on("offline", () => {
+        client.publish(
+            "scorekata/koneksi2",
+            JSON.stringify({ deviceId: "juri-4", tatami, status: "offline" })
+          );
+      });
+
+      client.on("close", () => {
+        console.log("Socket ditutup");
       });
 
       function sendVote(deviceId, team, score) {
@@ -263,7 +306,6 @@
           team: team,
           score: score,
         };
-
 
         client.publish("scorekata/data", JSON.stringify(payload));
         console.log("📤 Sent:", payload);
